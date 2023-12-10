@@ -1,0 +1,79 @@
+div {
+	box-sizing: border-box;
+}
+#header {
+	text-align: center;
+	font-size: 300%;
+	color: black;
+	border: thin solid darkolivegreen;
+	padding: 15px;
+	background-color: lightblue;
+}
+
+/* Buttons */
+
+#col {
+	width: 10%;
+	float: left;
+	height: 750px;
+}
+#col div {
+	border: thin black solid;
+	padding: 10px;
+	text-align: center;
+	font-size: 150%;
+	margin: 5px;
+	background-color: lightgrey;
+}
+#col div:hover {
+	background-color: darkgray;
+}
+/* Cards */
+
+img {
+	margin-top: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 15px;
+	width: 50%;
+}
+.card {
+	width: 25%;
+	border: thin solid gray;
+	background-color: bisque;
+	margin: 10px;
+	float: left;
+}
+h1 {
+	font-size: 24pt;
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+
+/* footer */
+
+#footer {
+	background-color: lightblue;
+	clear: left;
+	overflow: auto;
+	border: thin solid darkolivegreen;
+}
+#footer div {
+	width: 33%;
+	font-size: 200%;
+	padding: 15px;
+}
+#footer div:first-child {
+	float: left;
+	text-align: left;
+}
+#footer :nth-child(2) {
+	float: left;
+	text-align: center;
+}
+#footer :last-child {
+	float: left;
+	text-align: right;
+}
